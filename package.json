@@ -1,0 +1,52 @@
+{
+  "name": "nft-lujan-backend",
+  "version": "1.0.0",
+  "description": "Backend for nft-lujan ecosystem",
+  "main": "index.js",
+  "private": true,
+  "engines": {
+    "yarn": ">=1.22.19",
+    "npm": "please-use-yarn"
+  },
+  "scripts": {
+    "test": "jest",
+    "dev": "cross-env NODE_ENV=development nodemon",
+    "build": "tsc",
+    "lint:fix": "eslint --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mthew/nft-lujan-backend.git"
+  },
+  "keywords": [
+    "node",
+    "mysql",
+    "solidity"
+  ],
+  "author": "M_thew",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mthew/nft-lujan-backend/issues"
+  },
+  "homepage": "https://github.com/Mthew/nft-lujan-backend#readme",
+  "devDependencies": {
+    "@types/jest": "^29.4.0",
+    "@types/node": "^18.11.18",
+    "@types/supertest": "^2.0.12",
+    "@typescript-eslint/eslint-plugin": "^5.49.0",
+    "@typescript-eslint/parser": "^5.49.0",
+    "eslint": "^8.32.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "jest": "^29.4.0",
+    "nodemon": "^2.0.20",
+    "supertest": "^6.3.3",
+    "ts-jest": "^29.0.5",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.0.3"
+  }
+}

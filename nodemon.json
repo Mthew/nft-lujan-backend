@@ -1,0 +1,10 @@
+{
+    "whatch": [
+        "src"
+    ],
+    "ext": "ts",
+    "ignore": [
+        "src/**/*.spect.ts"
+    ],
+    "exec": "ts-node ./src/server.ts"
+}
